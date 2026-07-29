@@ -1,0 +1,31 @@
+# AI Resume Analyzer
+# Recommended: Python 3.10–3.12
+# After install, download the default spaCy model:
+#   python -m spacy download en_core_web_sm
+
+# Application
+streamlit==1.41.1
+
+# Data & numerics (NumPy 2.x for spaCy 3.8+ compatibility)
+numpy==2.1.3
+pandas==2.2.3
+
+# Visualization
+plotly==5.24.1
+matplotlib==3.9.2
+wordcloud==1.9.4
+Pillow==11.0.0
+
+# Resume / document parsing
+pdfplumber==0.11.4
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# ML & NLP
+scikit-learn==1.5.2
+nltk==3.9.1
+spacy==3.8.2
+textblob==0.18.0.post0
+
+# PDF report generation
+fpdf2==2.8.1
