@@ -1,22 +1,21 @@
 # AI Resume Analyzer
 
-A Python-based web application that analyzes resumes using Natural Language Processing (NLP). The application extracts important information, evaluates ATS compatibility, identifies technical skills, analyzes skill gaps, and recommends suitable job roles through an interactive dashboard.
+A Python-based web application that analyzes resumes using Natural Language Processing (NLP). The application extracts key information from resumes, evaluates ATS compatibility, identifies technical skills, analyzes skill gaps, and recommends suitable job roles through an interactive dashboard.
 
-
-Features:
+## Features
 
 - Upload resumes in PDF, DOCX, and TXT formats
-- Extract personal information (Name, Email, Phone Number)
-- Detect technical skills using NLP
+- Extract personal information such as name, email, and phone number
+- Identify technical skills using NLP
 - Calculate ATS compatibility score
 - Analyze resume quality and completeness
-- Identify missing skills for selected job roles
-- Recommend suitable job positions
+- Perform skill gap analysis for different job roles
+- Recommend suitable job positions based on skills
 - Interactive dashboard with charts and analytics
 - Store resume analysis history using SQLite
 - Generate downloadable PDF reports
 
-Technologies Used:
+## Technologies Used
 
 - Python
 - Streamlit
@@ -31,9 +30,9 @@ Technologies Used:
 - python-docx
 - FPDF2
 
-Project Structure:
+## Project Structure
 
-text
+```text
 AI-Resume-Analyzer/
 │
 ├── app.py
@@ -63,54 +62,57 @@ AI-Resume-Analyzer/
 ├── models/
 ├── sample_resumes/
 └── tests/
-
-Installation:
-
-Clone the repository:
-
-```bash
-git clone https:https://github.com/Aleena-Fatima168/AI-Resume-Analyzer
 ```
 
-Navigate to the project directory:
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Aleena-Fatima168/AI-Resume-Analyzer.git
+```
+
+### Navigate to the project folder
 
 ```bash
 cd AI-Resume-Analyzer
 ```
 
-Create a virtual environment:
+### Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate the virtual environment.
+### Activate the virtual environment
 
-Windows:
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-macOS / Linux:
+**macOS / Linux**
 
 ```bash
 source venv/bin/activate
 ```
 
-Install the required packages:
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Download the spaCy language model:
+### Download the spaCy language model
 
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-Run the application:
+### Run the application
 
 ```bash
 streamlit run app.py
@@ -121,20 +123,22 @@ Open your browser and visit:
 ```text
 http://localhost:8501
 ```
-Usage:
+
+## Usage
 
 1. Launch the application.
 2. Upload a resume in PDF, DOCX, or TXT format.
-3. Review the extracted information.
-4. View the ATS score and resume analysis.
-5. Analyze skill gaps for different job roles.
-6. Explore recommended job positions.
-7. View analytics and charts from the dashboard.
+3. View the extracted information.
+4. Check the ATS compatibility score.
+5. Review the identified technical skills.
+6. Analyze skill gaps for your target job role.
+7. Explore recommended job roles.
+8. View charts and analytics from the dashboard.
 
-Future Improvements:
+## Future Improvements
 
 - AI-powered cover letter generation
-- Resume and Job Description matching
+- Resume and job description matching
 - AI interview question generator
 - Multi-language resume support
 - User authentication
@@ -142,18 +146,17 @@ Future Improvements:
 - Docker support
 - REST API integration
 
-License:
+## License
 
 This project is licensed under the MIT License.
 
-Author:
+## Author
 
-Aleena Fatima
+**Aleena Fatima**
 
-Bachelor of Computer Science (BSCS)
-
+Bachelor of Science in Computer Science (BSCS)  
 Government College University Faisalabad
 
-GitHub: https://github.com/Aleena-Fatima168
+**GitHub:** https://github.com/Aleena-Fatima168
 
-LinkedIn: https://www.linkedin.com/in/aleena-fatima-dev
+**LinkedIn:** https://www.linkedin.com/in/aleena-fatima-dev
