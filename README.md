@@ -69,7 +69,7 @@ Installation:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/AI-Resume-Analyzer.git
+git clone https:https://github.com/Aleena-Fatima168/AI-Resume-Analyzer
 ```
 
 Navigate to the project directory:
@@ -121,9 +121,6 @@ Open your browser and visit:
 ```text
 http://localhost:8501
 ```
-
----
-
 Usage:
 
 1. Launch the application.
